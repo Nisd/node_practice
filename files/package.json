@@ -1,0 +1,13 @@
+{
+  "name": "files",
+  "version": "0.0.1",
+  "main": "app.js",
+  "description": "files operations with node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwqs/node_practice.git"
+  },
+  "scripts": {
+    "build": "node app.js"
+  }
+}
