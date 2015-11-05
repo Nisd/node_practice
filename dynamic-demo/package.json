@@ -1,0 +1,21 @@
+{
+  "name": "dynamic",
+  "version": "0.0.1",
+  "main": "app.js",
+  "description": "dynamic demo",
+  "author": "pomy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwqs/node_practice.git"
+  },
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "dependencies": {
+    "express": "^3.x"
+  },
+  "devDependencies": {
+    "hbs": "^4.0.0",
+    "supervisor": "^0.9.1"
+  }
+}
