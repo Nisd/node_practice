@@ -1,0 +1,16 @@
+{
+  "name": "Hello-Node",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "this is a demo of Node",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwqs/node_practice.git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.x"
+  }
+}
