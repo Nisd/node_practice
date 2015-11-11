@@ -2,10 +2,10 @@
 
 ####环境
 
-nodejs: v0.12.7
-mongodb: 3.0.7
-mac: OS X 10.10.4
-npm: 2.11.3
+nodejs: v0.12.7 <br/>
+mongodb: 3.0.7 <br/>
+mac: OS X 10.10.4 <br/>
+npm: 2.11.3 <br />
 
 ###运行
 ```
@@ -13,4 +13,4 @@ git clone https://github.com/dwqs/node_practice.git
 
 cd ./node_practice/series-nodejs && npm i && npm start
 ```
-打开浏览器访问 127.0.0.1：3000
+打开浏览器访问 htt://127.0.0.1:3000
