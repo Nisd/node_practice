@@ -4,6 +4,7 @@
 
 nodejs: v0.12.7 <br/>
 mongodb: 3.0.7 <br/>
+mongoose: 4.2.5 <br/>
 mac: OS X 10.10.4 <br/>
 npm: 2.11.3 <br />
 
