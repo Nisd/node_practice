@@ -50,7 +50,7 @@ io.on('connection', function(socket){
             obj['type']='welcome';
             console.log(client.name + ' login');
 
-            //返回欢迎语
+            //返回欢迎语,发给全部的人
             socket.emit('system',obj);
 
             //广播给其他人

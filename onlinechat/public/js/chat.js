@@ -37,7 +37,8 @@ $(function () {
         if (e.keyCode === 13) {
             var msg = $(this).val();
             if (!msg) return;
-            socket.send(msg);
+            //socket.send(msg);  触发server端的message事件
+            socket.emit('message', msg);
             $(this).val('');
             if (myName === false) {
                 myName = msg;
